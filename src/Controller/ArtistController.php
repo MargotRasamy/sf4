@@ -12,9 +12,6 @@ class ArtistController extends AbstractController
      */
     public function index()
     {
-        return $this->json([
-            'message' => 'Welcome to your new controller!',
-            'path' => 'src/Controller/ArtistController.php',
-        ]);
+        return $this->render('artists/list.html.twig');
     }
 }

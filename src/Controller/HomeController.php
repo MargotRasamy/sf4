@@ -14,9 +14,15 @@ class HomeController extends AbstractController
      */
     public function index(Request $request, Session $session)
     {
-        return $this->json([
-            'test' => $request->query->get('foo'),
-            'session' => $session->has('cle_inexistante')
-        ]);
+//        return $this->json([
+//            'test' => $request->query->get('foo'),
+//            'session' => $session->has('cle_inexistante')
+//        ]);
+
+        return $this->render('home.html.twig'
+//            , [
+//            'test' => 'Toto',]
+        );
+
     }
 }
