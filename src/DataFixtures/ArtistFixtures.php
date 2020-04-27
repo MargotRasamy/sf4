@@ -9,7 +9,7 @@ class ArtistFixtures extends BaseFixture
     protected function loadData(ObjectManager $manager)
     {
         // La fonction anonyme sera exécutée 50 fois
-        $this->createMany(50, function ($num) {
+        $this->createMany(50, 'artist', function ($num) {
             // Construction du nom d'artiste
             $name = $this->faker->randomElement(['DJ ', 'MC ', 'Lil ', '']);
             $name .= $this->faker->firstName;

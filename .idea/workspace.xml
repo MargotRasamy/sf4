@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cea56e62-5558-4608-969b-1e32c7942b17" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sf4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sf4.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/includes/record_list.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/ArtistController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ArtistController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/artists/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/artists/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Controller/RankingController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/RankingController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/ArtistFixtures.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/ArtistFixtures.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/DataFixtures/BaseFixture.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Entity/Record.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Record.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Repository/RecordRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Repository/RecordRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/ranking/news.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/ranking/news.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +115,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
   </component>
@@ -131,6 +132,9 @@
       <workItem from="1586336020031" duration="42000" />
       <workItem from="1586336069179" duration="3982000" />
       <workItem from="1586340625369" duration="14977000" />
+      <workItem from="1587930634108" duration="206000" />
+      <workItem from="1587930848709" duration="5733000" />
+      <workItem from="1587964700793" duration="4035000" />
     </task>
     <servers />
   </component>
@@ -138,17 +142,41 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1587965999663">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="167" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587965999663" />
     <state x="405" y="191" key="EditFileWatcherDialog" timestamp="1586347878242">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="405" y="191" key="EditFileWatcherDialog/0.0.1536.824@0.0.1536.824" timestamp="1586347878242" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1587930790603">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1587930790603" />
+    <state width="1493" height="428" key="GridCell.Tab.0.bottom" timestamp="1587931179525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="428" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1587931179525" />
+    <state width="1493" height="428" key="GridCell.Tab.0.center" timestamp="1587931179525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="428" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1587931179525" />
+    <state width="1493" height="428" key="GridCell.Tab.0.left" timestamp="1587931179525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="428" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1587931179525" />
+    <state width="1493" height="428" key="GridCell.Tab.0.right" timestamp="1587931179525">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="428" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1587931179525" />
     <state x="277" y="55" key="SettingsEditor" timestamp="1586336052928">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1586336052928" />
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1586340665727">
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog" timestamp="1587965086681">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1586340665727" />
+    <state x="465" y="236" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1587965086681" />
   </component>
 </project>

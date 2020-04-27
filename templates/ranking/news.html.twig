@@ -1,6 +1,16 @@
 {% extends "_template.html.twig" %}
 
-{% block content %}
+{% block title %}
+    Nouveautés
+{% endblock %}
 
-    Your favorite artist's on top 10 !
+{% block content %}
+    <main class="section">
+        <h1>Nouveautés : {{ record|length }}</h1>
+
+        {% include 'includes/record_list.html.twig' with {
+            record_list: record
+        } %}
+    </main>
+
 {% endblock %}

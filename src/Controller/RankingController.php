@@ -4,14 +4,17 @@ namespace App\Controller;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\Routing\Annotation\Route;
+use App\Repository\RecordRepository;
 
 class RankingController extends AbstractController
 {
     /**
-     * @Route("/ranking", name="ranking_news")
+     * @Route("/ranking_news", name="ranking_news")
      */
-    public function index()
+    public function index(RecordRepository $recordRepository)
     {
-        return $this->render('ranking/news.html.twig');
+        return $this-> render('ranking/news.html.twig',[
+            'record' => $recordRepository->getlastMonthReleases(),
+        ]);
     }
 }
